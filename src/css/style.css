@@ -1,0 +1,78 @@
+/*公共样式*/
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #eec908;
+}
+body {
+	color: white;
+}
+
+
+/*loading*/
+.load_title {
+	font-size: .96rem;
+	
+}
+/*第一屏*/
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .layer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.wrapper .layer1 {
+	background-image: url('../images/first_background.jpg');
+}
+
+.layer1_title {
+	position: absolute;
+	width: 7.50666667rem;
+	height: 2.41333333rem;
+	background-size: 100% 100%;
+	background-image: url('../images/first_title.png');
+	top: 50%;
+	left: 50%;
+	margin-left: -3.70666667rem;
+	margin-top: -2.41333333rem;
+}
+
+.cellphone {
+	width: 2.05333333rem;
+	height: 2.65333333rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -3.32rem;
+	margin-top: 1.68rem;
+	background-image: url('../images/cellphone.png');
+	background-size: 100% 100%;
+}
+
+.coffee {
+	width: 3.82666667rem;
+	height: 3.97333333rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: .46666667rem;
+	margin-top: .8rem;
+	background-image: url('../images/Coffee.png');
+	background-size: 100% 100%;
+}
+
+.layer1_button {
+	width: 5.54666667rem;
+	height: 1.68rem;
+	position: absolute;
+	background-image: url('../images/start_testing.png');
+	background-size: 100% 100%;
+	left: 2.17333333rem;
+	bottom: 1.92rem;
+}
